@@ -1,0 +1,652 @@
+/*
+ @ Connection Setting Section Start
+*/
+
+#order_shipping_line_items .shipping .display_meta{
+    display: none;
+}
+#wpfooter{
+    position: static;
+    margin-left: 0px !important;
+}
+.restrict_days_transit_package_unishepper_small th ,
+.en_unishippers_ground_hazardous_material_fee th,
+.en_unishippers_air_hazardous_material_fee th,
+.restrict_radio_btn_transit_unishepper_small th
+{
+    padding: 10px 10px 0px 15px !important;
+    font-weight: 400 !important;
+}
+
+
+.restrict_days_transit_package_unishepper_small td
+{
+    padding: 10px 10px 0px 15px !important;
+}
+.unishepper_sm_ground_transit_label td a,
+.unishippers_small_cutOffTime_shipDateOffset_required_label td a{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 5px -111px;
+}
+.unishepper_small_hazardous_fee td a {
+    font-style: normal;
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 5px -122px;
+}
+.unishepper_small_hazardous_materials_shipments th {
+    padding: 10px 10px 0px 15px !important;
+    font-weight: 400 !important;
+}
+
+.unishepper_small_hazardous_materials_shipments td {
+    padding: 10px 10px 0px 15px !important;
+}
+
+.unishepper_small_hazardous_materials_shipments td a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin: 3px 0 0 0;
+}
+
+#footer-left{
+    margin-left: 160px !important
+}
+
+.warning-msg {
+    margin             : 5px 0 15px !important;
+    border-left-color  : #ffb900 !important;
+    background         : #fff;
+    border-left        : 4px solid #fff;
+    -webkit-box-shadow : 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow         : 0 1px 1px 0 rgba(0,0,0,.1);
+    padding            : 3px 12px;
+}
+
+.warning-msg p, .test_conn_msg p, .test_err_msg p, .wrng_credential p, .not_allowed p{
+    margin : .5em 0;
+}
+
+.button-primary, .is-primary {
+    text-transform: capitalize !important;
+}
+.unishepper_small_connection_section .form-table tr .titledesc{
+    width: 300px;
+}
+
+.unishepper_small_connection_section .button-primary,
+.unishepper_small_connection_section .is-primary {
+    margin-left: 27px;
+    width: 160px !important;
+    height: 40px;
+    justify-content: center;
+}
+
+.unishepper_small_connection_section .connection_save_button{
+    margin-left: 15px;
+    width: 190px !important;
+    height: 40px;
+    background: #298cba none repeat scroll 0 0 !important;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+}
+.unishepper_small_connection_section input[type="text"] , .unishepper_small_connection_section select {
+    width: 350px !important;
+    border-radius: 1px;
+    height: 36px !important;
+}
+
+.unishepper_small_connection_section p.submit{
+    width: calc(100% - 30%);
+    margin-left: 310px;
+}
+
+.unishepper_small_connection_section p.submit > * {
+    line-height: 2.9 !important;
+}
+
+.unishepper_small_connection_section label {
+    cursor: default;
+}
+
+.unishipper_small_test_connection {
+    font-size: 13px !important;
+    width: 167px !important;
+    text-align: center;
+}
+
+.unishipper_small_test_connection:hover {
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+
+.err{
+    color: #ff0000;
+    font-size: 13px;
+    font-weight: normal !important;
+    padding-left: 10px;
+}
+
+label[for="unishepper_ups_account_number"]:after, label[for="unishepper_small_customer_account_number"]:after, label[for="unishepper_username"]:after, label[for="unishepper_password"]:after, label[for="unishepper_small_licence_key"]:after, label[for="unishippers_small_client_id"]:after, label[for="unishippers_small_client_secret"]:after {
+    content: " *";
+    color: red;
+}
+
+/*
+ @ Quote Setting Section Start
+*/
+
+.desc_text_style {
+    font-style: normal !important;
+}
+
+.unishipper_small_quote_section .form-table tbody {
+    display: block;
+}
+
+/* One Rate */
+.unishipper_small_quote_section tr:nth-of-type(1),
+.unishipper_small_quote_section tr:nth-of-type(2),
+.unishipper_small_quote_section tr:nth-of-type(3),
+.unishipper_small_quote_section tr:nth-of-type(4),
+.unishipper_small_quote_section tr:nth-of-type(5),
+.unishipper_small_quote_section tr:nth-of-type(6),
+.unishipper_small_quote_section tr.unishepper_small_quotes_services_tr,
+.unishipper_small_quote_section tr.unishipper_small_quotes_right_markup,
+.unishipper_small_quote_section tr.unishipper_small_quotes_left_markup {
+    width: 49% !important;
+    display: inline-flex;
+}
+
+.unishipper_small_quote_section tr.unishepper_small_quotes_services_tr td,
+.unishipper_small_quote_section tr.unishepper_small_quotes_services_tr th,
+
+.unishipper_small_quote_section tr.unishipper_small_quotes_left_markup td,
+.unishipper_small_quote_section tr.unishipper_small_quotes_left_markup th,
+
+.unishipper_small_quote_section tr.unishipper_small_quotes_right_markup td,
+.unishipper_small_quote_section tr.unishipper_small_quotes_right_markup th {
+    margin: 0px 0px 0px 0px !important;
+    padding-top: 0px !important
+}
+
+.unishipper_small_quote_section tr.unishipper_small_quotes_left_markup th,
+.unishipper_small_quote_section tr.unishipper_small_quotes_right_markup th {
+    display: none;
+}
+
+.unishipper_small_quote_section tr.unshipper_hidden_markup_tr {
+    visibility: hidden;
+}
+
+.dom_int_srvc_hdng{
+    display: none !important;
+}
+
+.unishipper_small_quote_section input[type="text"] , textarea {
+    width: 350px;
+    border-radius: 1px;
+}
+
+.unishipper_small_quote_section label{
+    cursor: default;
+}
+
+.unishipper_small_quote_section input[type="checkbox"] {
+    cursor: default;
+    height: 20px;
+    width: 20px;
+}
+
+.unishipper_small_quote_section input[type="checkbox"]:checked:before {
+    width: 24px;
+    padding-top: 2px;
+}
+
+.unishipper_small_quote_section select, .unishipper_small_quote_section input[type="text"] {
+    width: 300px !important;
+    border-radius: 1px;
+}
+
+.unishipper_small_quote_section .form-table tr .titledesc {
+    width: 300px;
+}
+
+.unishipper_small_quote_section .button-primary,
+.unishipper_small_quote_section .is-primary {
+    margin-left: 336px;
+    width: 160px !important;
+    height: 40px;
+    justify-content: center;
+}
+
+.unishepper_small_quotes_services_tr th {
+    padding: 0px 12px !important;
+    font-weight: 400 !important;;
+}
+.unishepper_small_quotes_services_td {
+    padding: 0px 10px !important;
+    font-size: 14px !important;
+}
+
+.form-table:nth-of-type(2n+3) tr {
+    width: 100% !important;
+}
+
+.prevent_text_box {
+    padding: 10px;
+    height: 85px !important;
+    font-size: 13px;
+}
+
+.hide_checkbox{
+    display: none !important;
+}
+
+/*
+ @ User Guide Section
+*/
+.user_guide {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.user_guide p {
+    font-size: 14px;
+}
+
+/*
+ @ Product Detail Dropship Dropdown
+*/
+
+.p_ds_location {
+    width: 50% !important;
+}
+
+.woocommerce_variable_attributes div.data select {
+    width: 100% !important;
+}
+
+.woocommerce_variable_attributes div.data .checkbox {
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+}
+
+.form-row select {
+    height: 35px !important;
+}
+
+.en_woo_addons_box_sizing span,.unishipper_small_quote_section span{
+    font-style: normal !important;
+}
+
+label[for='residential_delivery_options_label_heading'],
+label[for='auto_residential_delivery_plan_auto_renew'],
+label[for='residential_delivery_current_subscription'],
+label[for='residential_delivery_current_usage'],
+.suspend_automatic_detection_of_residential_addresses_style .titledesc {
+    font-weight: 600 !important;
+}
+
+.unishepper_small_quote_as_residential_delivery th,
+.avaibility_auto_residential th {
+    margin-left: 10px !important;
+    font-weight: 400;
+}
+
+.unishepper_small_quote_as_residential_delivery th,
+.avaibility_auto_residential th {
+    padding: 0px 10px 0px 15px !important;
+    font-weight: 400 !important;
+}
+
+.unishepper_small_quote_as_residential_delivery td,
+.avaibility_auto_residential td {
+    padding: 0px 10px !important;
+}
+
+.restrict_days_transit_package_unishepper_small th {
+    padding: 10px 10px 0px 15px !important;
+    font-weight: 400 !important;
+}
+
+.restrict_days_transit_package_unishepper_small td {
+    padding: 10px 10px 0px 15px !important;
+}
+
+.restrict_days_transit_package_unishepper_small td span a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin: 3px 0 0 0;
+}
+
+.unishepper_small_hazardous_materials_shipments th {
+    padding: 10px 10px 0px 15px !important;
+    font-weight: 400 !important;
+}
+
+.unishepper_small_hazardous_materials_shipments td {
+    padding: 10px 10px 0px 15px !important;
+}
+
+.unishepper_small_hazardous_materials_shipments td a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin: 3px 0 0 0;
+}
+
+._en_hazardous_material  span.description, ._en_exempt_ground_transit_restriction span.description{
+    font-size: 12px;
+}
+
+._en_hazardous_material .description a,._en_insurance_fee .description a,._dropship_location .description, ._en_exempt_ground_transit_restriction .description a{
+    text-decoration: none;  
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    position: relative;
+}
+
+.unishippers-warning-msg {
+    display: none;
+}
+
+textarea.prevent_text_box {
+    width: 250px;
+    border-radius: 1px;
+}
+
+input#unishipper_small_ground_markup_label {
+    display: none;
+}
+
+tr.restrict_radio_btn_transit_unishepper_small th {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    display: block;
+    margin-top: 7px;
+}
+
+tr.restrict_radio_btn_transit_unishepper_small td  {
+    margin-top: 8px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+/*estimated delivery options css*/
+tr.all_shipment_days_unishippers_small_tr{
+    display: inline-block;
+}
+tr.unishippers_small_shipment_day_tr{
+    display: inline-block;
+}
+tr.unishippers_small_shipment_day_tr th {
+    display: none;
+}
+#service_unishippers_small_estimates_title{
+    display: none;
+}
+tr.all_shipment_days_unishippers_small_tr th {
+    padding-left: 17px;
+    font-weight: normal;
+}
+tr.all_shipment_days_unishippers_small_tr td {
+    padding-left: 0px;
+}
+.unishipper_small_quote_section p.description {
+    font-style: normal;
+    margin: 0px;
+}
+.unishipper_small_quote_section tr.residential_delivery_options_plans_style {
+    padding-top: 30px;
+}
+tr.service_unishippers_small_estimates_title_tr th {
+    font-size: 1.2em;
+}
+.unishippers_small_cutOffTime_shipDateOffset th {
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 16px !important;
+}
+
+.en_custom_error_description {
+    display: block;
+}
+/*Fix estimate options*/
+.unishipper_small_quote_section td.forminp.forminp-radio ul li {
+    display: block !important;
+}
+
+.unishipper_small_quote_section p.submit {
+    display: flex;
+    justify-content: end;
+}
+
+.en-coupon-code-div{
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+
+.en-coupon-notice{
+    border-left-color: #72aee6;
+}
+
+.en-coupon-success{
+    border-left-color: #00a32a;
+}
+
+.en-coupon-error{
+    border-left-color: #d63638;
+}
+
+.en-coupon-btn-div{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.en-error-message{
+    color: #dc3232 !important;
+}
+/*fdo va*/
+/* Create two equal columns that floats next to each other */
+.half-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.parent-column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.dn {
+    display:none;
+}
+.dnblock {
+    float: none;
+    text-align: center;
+    width: auto;
+    padding-top: 0px;
+}
+.user_guide_fdo {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.user_guide_fdo p.submit {
+    display: none;
+}
+#freightdesk_online_id {
+    width: 98%;
+    padding: 3px;
+}
+#unishippers_small_packaging_method_label {
+    display: none;
+}
+
+/*Css for nested material fields*/
+._nestedDimension, ._nestedStakingProperty {
+    width: 50% !important;
+}
+
+._nestedMaterials_tr .description a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    font-style: normal;
+    top: 3px;
+}
+
+._nestedMaterials_tr .description {
+    font-style: normal;
+    font-size: 12px;
+}
+
+.disabled_me._nestedDimension, .disabled_me._nestedStakingProperty {
+    color: #000000;
+}
+
+.woocommerce_variable_attributes.wc-metabox-content p span.description a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+/* Product variant UI styles */
+.woocommerce_variable_attributes.wc-metabox-content [class^="_dropship_location"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_ltl_freight"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nmfc_number"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_en_product_markup"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedPercentage"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="en_flat_rate_price"],
+.woocommerce_variable_attributes.wc-metabox-content select._nestedDimension,
+.woocommerce_variable_attributes.wc-metabox-content input._maxNestedItems,
+.woocommerce_variable_attributes.wc-metabox-content select._nestedStakingProperty {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content > p {
+    margin: 15px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data h2.sbs_settings_title {
+    padding: 0 !important;
+    margin: 30px 0 -10px 3px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content h2 {
+    padding: 0 !important;
+    margin: 30px 0 0 30px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content [class^="_dropship_location"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_ltl_freight"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="en_flat_rate_price"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_en_product_markup"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedPercentage"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedDimension"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_maxNestedItems"],
+.woocommerce_variable_attributes.wc-metabox-content [class^="_nestedStakingProperty"] {
+    margin: 2px 0 0;
+    padding: 5px;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_flat_rate_price"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_en_product_markup"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_nestedPercentage"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_nestedDimension"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_maxNestedItems"] span.woocommerce-help-tip,
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_nestedStakingProperty"] span.woocommerce-help-tip {
+    float: right;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_multiply_cart_quantity"],
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_enable_dropship"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_rot_ver"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_own_pack"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_multiple_packages"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_nestedMaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_hazardousmaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_insurance_fee"] {
+    display: flex;
+    align-items: center;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_multiply_cart_quantity"] input[id^="en_multiply_cart_quantity"],
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_enable_dropship"] input[id^="_enable_dropship"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_rot_ver"] input[id^="_en_rot_ver"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_own_pack"] input[id^="_en_own_pack"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_multiple_packages"] input[id^="_en_multiple_packages"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"] input[id^="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] input[id^="_en_vrf_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_nestedMaterials"] input[id^="_nestedMaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] input[id^="_en_vrf_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_hazardousmaterials"] input[id^="_hazardousmaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_insurance_fee"] input[id^="_en_insurance_fee"] {
+    order: -1;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="en_multiply_cart_quantity"] input[id^="en_multiply_cart_quantity"],
+.woocommerce_variable_attributes.wc-metabox-content .data p[class*="_enable_dropship"] input[id^="_enable_dropship"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_nestedMaterials"] input[id^="_nestedMaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_hazardousmaterials"] input[id^="_hazardousmaterials"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_insurance_fee"] input[id^="_en_insurance_fee"] {
+    margin: 0 10px 0 0 !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_rot_ver"] input[id^="_en_rot_ver"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_own_pack"] input[id^="_en_own_pack"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_multiple_packages"] input[id^="_en_multiple_packages"] {
+    margin: 0 10px 0 15px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] {
+    margin-left: 30px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_sao_pallet"] input[id^="_en_sao_pallet"],
+.woocommerce_variable_attributes.wc-metabox-content p[class*="_en_vrf_pallet"] input[id^="_en_vrf_pallet"] {
+    margin-right: 10px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data fieldset[class*="_signature_required"] legend {
+    margin-bottom: 5px !important;
+}
+.woocommerce_variable_attributes.wc-metabox-content .data fieldset[class*="_signature_required"] ul[class*="wc-radios"] li {
+    padding: 0 !important;
+}
